@@ -1,0 +1,12 @@
+.title-tasks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: $margin-mobile;
+  &__name {
+    margin-left: $margin-mobile;
+  }
+  &__arrow{
+    margin-right: $margin-mobile;
+  }
+}
