@@ -2,11 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: $margin-mobile;
+  margin-top: 40px;
   &__name {
     margin-left: $margin-mobile;
+    text-transform: capitalize;
+    font-size: 1.8rem;
   }
-  &__arrow{
+  &__arrow {
     margin-right: $margin-mobile;
+    font-size: 1.7rem;
   }
 }

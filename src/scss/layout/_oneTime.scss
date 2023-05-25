@@ -2,6 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 30px;
+  margin-bottom: 90px;
+  &__title {
+    font-size: 1.7rem;
+  }
   &__btn {
     display: flex;
     flex-direction: column;

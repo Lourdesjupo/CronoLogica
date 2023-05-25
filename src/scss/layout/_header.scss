@@ -9,11 +9,14 @@
   //cuando esté en display none añadir 15px más al margin top del titulo
   display:none;
 }
-.header_here {
-  display: flex;
-  justify-content: space-between;
-  margin-left: $margin-mobile;
-  margin-top: $margin-mobile;
+.header {
+  &__here{
+    display: flex;
+    justify-content: space-between;
+    margin-left: $margin-mobile;
+    margin-top: $margin-mobile;
+  }
+
 
 }
 
