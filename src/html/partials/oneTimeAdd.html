@@ -1,48 +1,53 @@
 <form action="">
-<fieldset class="Task-name">
+<fieldset class="task-name">
     <label for="taskName">task name</label>
     <input type="text" name="taskName"></input>
 </fieldset>
-<fieldset>
+<fieldset class="select-icon">
 <h2 class="select-icon__title">select icon</h2>
 <!-- debería poner un fieldset o un form? -->
 <section class="default-icons">
-    <a href=""><img class="icon" src="./assets/images/icons/agua.png" alt=""></a>
-    <a href=""><img class="icon" src="./assets/images/icons/libro-abierto.png" alt=""></a>
-    <a href=""><img class="icon" src="./assets/images/icons/medicamento.png" alt=""></a>
-    <a href=""><img class="icon" src="./assets/images/icons/regando-plantas.png" alt=""></a>
-    <a href=""><img class="icon" src="./assets/images/icons/taza-de-cafe.png" alt=""></a>
-    <a href=""><img class="icon" src="./assets/images/icons/yoga.png" alt=""></a>
-    <a href=""><img class="icon" src="./assets/images/icons/gato.png" alt=""></a>
-    <a href=""><img class="icon" src="./assets/images/icons/arenero.png" alt=""> </a> 
+    <a href=""><i class="fa-solid fa-glass-water"></i></a>
+    <a href=""><i class="fa-solid fa-book"></i></a>
+    <a href=""><i class="fa-solid fa-prescription-bottle-medical"></i></a>
+    <a href=""><i class="fa-solid fa-seedling"></i></a>
+    <a href=""><i class="fa-solid fa-mug-hot"></i></a>
+    <a href=""><i class="fa-solid fa-dumbbell"></i></a>
+    <a href=""><i class="fa-solid fa-paw"></i></a>
+     
 </section>
 <div class="addimg">
     <button>Add Image</button>
 </div>
 </fieldset>
 <fieldset class="notify">
+    
+    <label for="">Notify by mail?</label>
     <input type="radio" name="" id="">
+    <label for="">Yes</label>
     <input type="radio" name="" id="">
-    <div>
+    <label for="">No</label>
+    
+    <div class="notifyPeriod">
         <div>
             <input type="radio" name="" id="">
             <input type="text" name="" id="">
-            <label for=""></label>
+            <label for=""> Days</label>
         </div>
         <div>
             <input type="radio" name="" id="">
             <input type="text" name="" id="">
-            <label for=""></label>
+            <label for="">Weeks</label>
         </div>
         <div>
             <input type="radio" name="" id="">
             <input type="text" name="" id="">
-            <label for=""></label>
+            <label for="">Months</label>
         </div>
     </div>
 </fieldset>
 </form>
-<div>
+<div class ="addTask">
    <i class="fa-solid fa-circle-plus"></i> 
 </div>
 <!-- necesito poner anchors en los iconos? como debo de mencionar los links de los iconos? -->
